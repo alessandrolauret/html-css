@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Inserindo vídeos com hospedagem localmente</h1>
+    <p>Este vídeo está no meu próprio servidor.</p>
+    <video width="400px" controls poster="imagens/thumb.jpg" >
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>O seu navegador não suporta videos</p>
+    </video>
+    <br>
+    <h1>Inserindo vídeos do youtube</h1>
+    <p>Esse vídeos está hospedado em um servidor do google e não gera custo de tráfego no seu servidor.</p>
+    <iframe width="400" height="225" src="https://www.youtube.com/embed/lIES3ii-IOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos com vimeo</h1>
+    <p>No vimeo é possivel disponibilizar videos on demand, para por exemplo criar video aulas que só aasinantes teram acesso, mas essa é uma opção paga.</p>
+    <iframe src="https://player.vimeo.com/video/173203512?h=5dbf427b17&color=ffffff&portrait=0" width="400" height="225" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

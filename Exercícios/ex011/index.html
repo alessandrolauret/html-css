@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas, áudio e video</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em diversos dispositivos ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem-g">
+    </picture>
+    <h1>Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio controls preload="metadata">
+        <source src="midias/Oh Fire - Carmen María and Edu Espinal.mp3" type="audio/mpeg">
+        <source src="midias/Oh Fire - Carmen María and Edu Espinal.wav" type="audio/wav">
+        <source src="midias/Oh Fire - Carmen María and Edu Espinal.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir audios, baixe o mp3 <a href="midias/Oh Fire - Carmen María and Edu Espinal.mp3"></a>aqui</p>
+    </audio>
+    <h1>Vídeos</h1>
+    <!--MP3 WAV OGG-->
+</body>
+</html>
